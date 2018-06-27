@@ -48,7 +48,7 @@ Supported integration methods are: trapeze, Simpson, Gaussian quadratic. The oth
 NOTE: I do not maintain this project, it was part of a school homework.
 
 
-TODO : If you have spare time you could:
+TODO If you have spare time you could:
     - Rewrite all comments in english
     - Finish few parts (some methods are not implemented. They should be mark with a TODO note)
 
