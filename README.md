@@ -1,6 +1,6 @@
 # Analytic1D
 
-This module aims to facilitate derivative and integral, both analytic and numeric, for one dimension system. To see examples, look at examples.py.
+This module aims to facilitate derivatives and integrations, both analytic and numeric, for one dimension system. I implemented few numeric methods and tried derivate/integrate with symbolic methods (with Sympy).  To examples, look at examples.py.
 
 
 Example
