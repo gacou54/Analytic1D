@@ -39,9 +39,11 @@ Symbolic example
        3        45
     18.27061470371541
 
+    >>> a_function.ana_integration_def(a=1, b=2)
+    18.27061470371541
 
 
-Supported integration methods are: trapeze, Simpson, Gaussian quadratic. The other are not implemented yet. You might want to see scipy method, they should be better than mine. The cool thing about this module is the symbolic part. It needs Sympy to work (symbolic operations are made with the Sympy module).
+Supported integration methods are: trapeze, Simpson, Gaussian quadratic. The others are not implemented yet. You might want to see scipy methods, they should be better than mines. The cool thing about this module is the symbolic part. It needs Sympy to work (symbolic operations are made with the Sympy module).
 
 NOTE: I do not maintain this project, it was part of a school homework.
 
