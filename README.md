@@ -54,6 +54,6 @@ TODO : If you have spare time you could:
            They should be mark with a TODO note)
 
 
-Maybe if I have time in the future I will rewrite that to be more usable. I used this
+Maybe if I have spare time I will rewrite that to be more usable. I used this
 in these school projects : https://github.com/gacou54/wingman
 
