@@ -3,7 +3,7 @@
 This module aims to facilitate derivatives and integrations, both analytic and numeric, for one dimension system. It should be used as a python decorator. I implemented few numeric methods and I tried to nicely wrap derivate/integrate symbolic capabilities of Sympy. For examples, look at examples.py.
 
 
-Example
+## Example
 
 
     >>> @FonctionAnalytique1D
@@ -11,16 +11,16 @@ Example
     ...     y = x**2
     ...     z = x + (y + 1)**2 + y * np.log(x)
     ...     return x + y + z
+    
 
-
-Numeric example
+## Numeric example
 
 
     >>> a_function.trapeze(a=1, b=2, N=1000)
     18.270617851431115
 
 
-Symbolic example
+## Symbolic example
 
 
     >>> a_function.ana_integration_def(a=1, b=2, verbeux=True)
@@ -45,13 +45,15 @@ Symbolic example
 
 Supported integration methods are: trapeze, Simpson, Gaussian quadratic. The others are not implemented yet. You might want to see scipy methods, they should be better than mines. The cool thing about this module is the symbolic part. It relies on Sympy (symbolic operations are made with the Sympy module).
 
-NOTE: I do not maintain this project, it was part of a school homework and I do not have the time to work on it.
 
 
-TODO If you have spare time you could:
+__NOTE__: I do not maintain this project, it was part of a school homework and I do not have the time to work on it.
 
-    - Rewrite all comments in english.
-    - Finish few parts (some methods are not implemented. They should be mark with a TODO note).
-    - Add functionalities
+
+__TODO__ If you have spare time you could:
+
+* Rewrite all comments in english.
+* Finish few parts (some methods are not implemented. They should be mark with a TODO note).
+* Add functionalities
 
 
