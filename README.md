@@ -1,6 +1,6 @@
 # Analytic1D
 
-This module aims to facilitate derivatives and integrations, both analytic and numeric, for one dimension system. I implemented few numeric methods and tried derivate/integrate with symbolic methods (with Sympy).  To examples, look at examples.py.
+This module aims to facilitate derivatives and integrations, both analytic and numeric, for one dimension system. It should be used as a python decorator. I implemented few numeric methods and I tried to nicely wrap derivate/integrate symbolic capabilities of Sympy. For examples, look at examples.py.
 
 
 Example
@@ -43,17 +43,15 @@ Symbolic example
     18.27061470371541
 
 
-Supported integration methods are: trapeze, Simpson, Gaussian quadratic. The others are not implemented yet. You might want to see scipy methods, they should be better than mines. The cool thing about this module is the symbolic part. It needs Sympy to work (symbolic operations are made with the Sympy module).
+Supported integration methods are: trapeze, Simpson, Gaussian quadratic. The others are not implemented yet. You might want to see scipy methods, they should be better than mines. The cool thing about this module is the symbolic part. It relies on Sympy (symbolic operations are made with the Sympy module).
 
-NOTE: I do not maintain this project, it was part of a school homework.
+NOTE: I do not maintain this project, it was part of a school homework and I do not have the time to work on it.
 
 
 TODO If you have spare time you could:
 
     - Rewrite all comments in english.
     - Finish few parts (some methods are not implemented. They should be mark with a TODO note).
+    - Add functionalities
 
-
-Maybe if I have spare time I will rewrite that to be more usable. I used this
-in these school projects : https://github.com/gacou54/wingman
 
